@@ -1,5 +1,5 @@
 # SegFault_NS-CONTROLLER
-DownTilt -> jab 3x -> PowerDunk
+DownTilt -> jab x3 -> PowerDunk
 
 
 <b> uwa!! so temperate ♫ </b>
