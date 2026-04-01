@@ -14,4 +14,4 @@ i decided to go with a simple design of purely cherry mx switches and a raspberr
 ### current version!! :3
 
 so.. it's been a bit since v0.1. we're currently on v0.2. i've added a display, changed out the layout a bit, and stuff is looking just a bit better. it always has me thinking "ohh my god this looks amazing!" with the display now. i'm sure it'll be nice when it's fully done.
-<img width="1200" height="849" alt="New Revision!!" src="https://github.com/user-attachments/assets/ab9b67cf-37b6-4e7e-afa9-899e67827ac1" />
+<img width="984" height="713" alt="Revisionv0 2" src="https://github.com/user-attachments/assets/6a45b877-dc4a-4245-a808-203f51a3eb30" />
