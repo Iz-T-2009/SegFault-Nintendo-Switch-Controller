@@ -6,6 +6,7 @@ DownTilt -> jab x3 -> PowerDunk
 <b> uwa!! so temperate ♫ </b>
 
 # --/*update section*/--
+### scroll down for newest versions! OwO
 
 anyways.. this is v0.1 :)
 
