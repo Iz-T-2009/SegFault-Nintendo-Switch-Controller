@@ -24,7 +24,8 @@ so.. it's been a bit since v0.1. we're currently on v0.2. i've added a display, 
 this version was.. interesting to say the least. lots of issues were arising due to the choice of strictly not using matrix wiring to ensure the design doesn't look complex, andddd it always ends up more complex. more buttons were added! although.. that tarde off may not be worth it.
 
 <b>design!</b>
-<img width="1916" height="1070" alt="Screenshot From 2026-04-09 12-47-32" src="https://github.com/user-attachments/assets/544a729c-aca8-4dda-aeee-a7139cf05334" />
+<img width="1916" height="1070" alt="Screenshot From 2026-04-09 12-42-01" src="https://github.com/user-attachments/assets/e27ccdef-761f-4177-889c-f308138c28f1" />
+
 
 <b>3d render!</b>
-<img width="1916" height="1070" alt="Screenshot From 2026-04-09 12-42-01" src="https://github.com/user-attachments/assets/b9a832cc-6350-48f5-800f-91929b9789f7" />
+<img width="1916" height="1070" alt="Screenshot From 2026-04-09 12-47-32" src="https://github.com/user-attachments/assets/f5375890-54c9-41e6-9f55-5b46fbb61191" />
