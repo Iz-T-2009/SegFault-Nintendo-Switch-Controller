@@ -1,0 +1,5575 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f46213de-467f-48a7-85bc-d7060c2898ac")
+	(paper "A4")
+	(lib_symbols
+		(symbol "DM-OLED096-636:DM-OLED096-636"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DM-OLED096-636"
+				(at -7.62 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DM-OLED096-636:MODULE_DM-OLED096-636"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Display Module"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "11.3 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "2018-09-10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "DM-OLED096-636"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Displaymodule"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "DM-OLED096-636_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "VCC_IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MCU_Module:RaspberryPi_Pico_W"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "A"
+				(at -19.05 35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RaspberryPi_Pico_W"
+				(at 7.62 35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Module:RaspberryPi_Pico_W_SMD_HandSolder"
+				(at 0 -46.99 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
+				(at 0 -49.53 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
+				(at 0 -52.07 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb wifi bluetooth"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?W?SMD*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RaspberryPi_Pico_W_0_1"
+				(rectangle
+					(start -19.05 34.29)
+					(end 19.05 -31.75)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 34.29) (xy -3.81 33.655) (xy -3.81 31.75) (xy -3.175 31.75)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.429 32.766) (xy -3.429 33.02) (xy -3.175 33.02) (xy -3.175 30.48) (xy -2.921 30.48) (xy -2.921 30.734)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 31.75) (xy -1.905 33.02) (xy -1.905 30.48) (xy -3.175 31.75)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 34.29) (xy -1.27 33.655) (xy -1.27 31.75) (xy -1.905 31.75)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -31.75) (xy 1.27 -31.115) (xy 1.27 -24.13) (xy 18.415 -24.13) (xy 19.05 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RaspberryPi_Pico_W_1_1"
+				(pin bidirectional line
+					(at -22.86 15.24 0)
+					(length 3.81)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C0_SDA" bidirectional line)
+					(alternate "PWM0_A" output line)
+					(alternate "SPI0_RX" input line)
+					(alternate "UART0_TX" output line)
+					(alternate "USB_OVCUR_DET" input line)
+				)
+				(pin bidirectional line
+					(at -22.86 12.7 0)
+					(length 3.81)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C0_SCL" bidirectional clock)
+					(alternate "PWM0_B" bidirectional line)
+					(alternate "UART0_RX" input line)
+					(alternate "USB_VBUS_DET" passive line)
+					(alternate "~{SPI0_CSn}" bidirectional line)
+				)
+				(pin power_out line
+					(at 0 -35.56 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND_IN" power_in line)
+				)
+				(pin bidirectional line
+					(at -22.86 10.16 0)
+					(length 3.81)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "PWM1_A" output line)
+					(alternate "SPI0_SCK" bidirectional clock)
+					(alternate "UART0_CTS" input line)
+					(alternate "USB_VBUS_EN" output line)
+				)
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SCL" bidirectional clock)
+					(alternate "PWM1_B" bidirectional line)
+					(alternate "SPI0_TX" output line)
+					(alternate "UART0_RTS" output line)
+					(alternate "USB_OVCUR_DET" input line)
+				)
+				(pin bidirectional line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C0_SDA" bidirectional line)
+					(alternate "PWM2_A" output line)
+					(alternate "SPI0_RX" input line)
+					(alternate "UART1_TX" output line)
+					(alternate "USB_VBUS_DET" input line)
+				)
+				(pin bidirectional line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C0_SCL" bidirectional clock)
+					(alternate "PWM2_B" bidirectional line)
+					(alternate "UART1_RX" input line)
+					(alternate "USB_VBUS_EN" output line)
+					(alternate "~{SPI0_CSn}" bidirectional line)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "GPIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "PWM3_A" output line)
+					(alternate "SPI0_SCK" bidirectional clock)
+					(alternate "UART1_CTS" input line)
+					(alternate "USB_OVCUR_DET" input line)
+				)
+				(pin bidirectional line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "GPIO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SCL" bidirectional clock)
+					(alternate "PWM3_B" bidirectional line)
+					(alternate "SPI0_TX" output line)
+					(alternate "UART1_RTS" output line)
+					(alternate "USB_VBUS_DET" input line)
+				)
+				(pin bidirectional line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "GPIO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C0_SDA" bidirectional line)
+					(alternate "PWM4_A" output line)
+					(alternate "SPI1_RX" input line)
+					(alternate "UART1_TX" output line)
+					(alternate "USB_VBUS_EN" output line)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "GPIO9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C0_SCL" bidirectional clock)
+					(alternate "PWM4_B" bidirectional line)
+					(alternate "UART1_RX" input line)
+					(alternate "USB_OVCUR_DET" input line)
+					(alternate "~{SPI1_CSn}" bidirectional line)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -10.16 0)
+					(length 3.81)
+					(name "GPIO10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "PWM5_A" output line)
+					(alternate "SPI1_SCK" bidirectional clock)
+					(alternate "UART1_CTS" input line)
+					(alternate "USB_VBUS_DET" input line)
+				)
+				(pin bidirectional line
+					(at -22.86 -12.7 0)
+					(length 3.81)
+					(name "GPIO11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SCL" bidirectional clock)
+					(alternate "PWM5_B" bidirectional line)
+					(alternate "SPI1_TX" output line)
+					(alternate "UART1_RTS" output line)
+					(alternate "USB_VBUS_EN" output line)
+				)
+				(pin bidirectional line
+					(at -22.86 -15.24 0)
+					(length 3.81)
+					(name "GPIO12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C0_SDA" bidirectional line)
+					(alternate "PWM6_A" output line)
+					(alternate "SPI1_RX" input line)
+					(alternate "UART0_TX" output line)
+					(alternate "USB_OVCUR_DET" input line)
+				)
+				(pin bidirectional line
+					(at -22.86 -17.78 0)
+					(length 3.81)
+					(name "GPIO13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C0_SCL" bidirectional clock)
+					(alternate "PWM6_B" bidirectional line)
+					(alternate "UART0_RX" input line)
+					(alternate "USB_VBUS_DET" input line)
+					(alternate "~{SPI1_CSn}" bidirectional line)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -20.32 0)
+					(length 3.81)
+					(name "GPIO14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "PWM7_A" output line)
+					(alternate "SPI1_SCK" bidirectional clock)
+					(alternate "UART0_CTS" input line)
+					(alternate "USB_VBUS_EN" output line)
+				)
+				(pin bidirectional line
+					(at -22.86 -22.86 0)
+					(length 3.81)
+					(name "GPIO15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SCL" bidirectional clock)
+					(alternate "PWM7_B" bidirectional line)
+					(alternate "SPI1_TX" output line)
+					(alternate "UART0_RTS" output line)
+					(alternate "USB_OVCUR_DET" input line)
+				)
+				(pin bidirectional line
+					(at 22.86 12.7 180)
+					(length 3.81)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C0_SDA" bidirectional line)
+					(alternate "PWM0_A" output line)
+					(alternate "SPI0_RX" input line)
+					(alternate "UART0_TX" output line)
+					(alternate "USB_VBUS_DET" input line)
+				)
+				(pin bidirectional line
+					(at 22.86 10.16 180)
+					(length 3.81)
+					(name "GPIO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C0_SCL" bidirectional clock)
+					(alternate "PWM0_B" bidirectional line)
+					(alternate "UART0_RX" input line)
+					(alternate "USB_VBUS_EN" output line)
+					(alternate "~{SPI0_CSn}" bidirectional line)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 7.62 180)
+					(length 3.81)
+					(name "GPIO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "PWM1_A" output line)
+					(alternate "SPI0_SCK" bidirectional clock)
+					(alternate "UART0_CTS" input line)
+					(alternate "USB_OVCUR_DET" input line)
+				)
+				(pin bidirectional line
+					(at 22.86 5.08 180)
+					(length 3.81)
+					(name "GPIO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SCL" bidirectional clock)
+					(alternate "PWM1_B" bidirectional line)
+					(alternate "SPI0_TX" output line)
+					(alternate "UART0_RTS" output line)
+					(alternate "USB_VBUS_DET" input line)
+				)
+				(pin bidirectional line
+					(at 22.86 2.54 180)
+					(length 3.81)
+					(name "GPIO20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CLOCK_GPIN0" input clock)
+					(alternate "I2C0_SDA" bidirectional line)
+					(alternate "PWM2_A" output line)
+					(alternate "SPI0_RX" input line)
+					(alternate "UART1_TX" output line)
+					(alternate "USB_VBUS_EN" output line)
+				)
+				(pin bidirectional line
+					(at 22.86 0 180)
+					(length 3.81)
+					(name "GPIO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CLOCK_GPOUT0" output clock)
+					(alternate "I2C0_SCL" bidirectional clock)
+					(alternate "PWM2_B" bidirectional line)
+					(alternate "UART1_RX" input line)
+					(alternate "USB_OVCUR_DET" input line)
+					(alternate "~{SPI0_CSn}" bidirectional line)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -2.54 180)
+					(length 3.81)
+					(name "GPIO22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CLOCK_GPIN1" input clock)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "PWM3_A" output line)
+					(alternate "SPI0_SCK" bidirectional clock)
+					(alternate "UART1_CTS" input line)
+					(alternate "USB_VBUS_DET" input line)
+				)
+				(pin passive line
+					(at -22.86 22.86 0)
+					(length 3.81)
+					(name "RUN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "~{RESET}" passive line)
+				)
+				(pin bidirectional line
+					(at 22.86 -12.7 180)
+					(length 3.81)
+					(name "GPIO26_ADC0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC0" input line)
+					(alternate "GPIO26" bidirectional line)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "PWM5_A" output line)
+					(alternate "SPI1_SCK" bidirectional clock)
+					(alternate "UART1_CTS" input line)
+					(alternate "USB_VBUS_EN" output line)
+				)
+				(pin bidirectional line
+					(at 22.86 -15.24 180)
+					(length 3.81)
+					(name "GPIO27_ADC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1" input line)
+					(alternate "GPIO27" bidirectional line)
+					(alternate "I2C1_SCL" bidirectional clock)
+					(alternate "PWM5_B" bidirectional line)
+					(alternate "SPI1_TX" output line)
+					(alternate "UART1_RTS" output line)
+					(alternate "USB_OVCUR_DET" input line)
+				)
+				(pin power_out line
+					(at 22.86 -22.86 180)
+					(length 3.81)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND" passive line)
+				)
+				(pin bidirectional line
+					(at 22.86 -17.78 180)
+					(length 3.81)
+					(name "GPIO28_ADC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC2" input line)
+					(alternate "GPIO28" bidirectional line)
+					(alternate "I2C0_SDA" bidirectional line)
+					(alternate "PWM6_A" output line)
+					(alternate "SPI1_RX" input line)
+					(alternate "UART0_TX" output line)
+					(alternate "USB_VBUS_DET" input line)
+				)
+				(pin power_in line
+					(at 22.86 -7.62 180)
+					(length 3.81)
+					(name "ADC_VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 5.08 38.1 270)
+					(length 3.81)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 20.32 0)
+					(length 3.81)
+					(name "3V3_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "~{3V3_DISABLE}" passive line)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 38.1 270)
+					(length 3.81)
+					(name "VSYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "VSYS_OUT" power_out line)
+				)
+				(pin power_out line
+					(at 0 38.1 270)
+					(length 3.81)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "VBUS_IN" power_in line)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(global_label "DownA"
+		(shape input)
+		(at 224.79 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08ab759d-a7c9-4fc0-a5d2-83a45f6b0471")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.8177 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DownA"
+		(shape input)
+		(at 85.09 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b2e9d76-39ae-4234-92be-5a8e0b45ca45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 49.4477 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 181.61 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ccac9e9-7c4e-436a-9950-d7bd38b245ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 17.5162 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 252.73 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1340fd1b-f8dc-4867-8b43-d3789293ec33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.73 72.1262 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND0"
+		(shape input)
+		(at 96.52 92.71 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "154dcd53-c5fe-4ab6-8244-e7b80857b2ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 100.7752 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Start"
+		(shape input)
+		(at 133.35 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1562c503-8d8e-48e3-b2c0-29c32d97d515")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.35 36.8687 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CstickRight"
+		(shape input)
+		(at 157.48 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a20804e-8481-4357-8aba-fb37385a179f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 86.701 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND0"
+		(shape input)
+		(at 92.71 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fbde33d-a17f-4e06-8ee3-e2f3dc21c0e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.71 67.7552 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 189.23 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20f03c75-c0fa-438f-8c75-64365541ed54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 17.5767 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CstickDown"
+		(shape input)
+		(at 125.73 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21579fa2-a4ca-43cc-9577-0565a1e97dea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 125.389 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 247.65 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b36c9e9-4a66-4e8d-8f8e-d9f1f40239e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.5848 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LeftA"
+		(shape input)
+		(at 66.04 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c49f1c2-1609-4383-9255-870eee6f1ebf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 52.0481 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RightA"
+		(shape input)
+		(at 102.87 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cbb8d33-9270-4acd-86d6-a05a885af861")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 50.7177 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Minus{slash}Select"
+		(shape input)
+		(at 224.79 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3056115c-bb97-434d-8873-9599d0e911c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.2258 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "A"
+		(shape input)
+		(at 224.79 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39499b9b-3b3a-4370-b0da-9cea7a3a2f56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.7162 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND0"
+		(shape input)
+		(at 247.65 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39581d5f-fb1f-43c2-9447-803206d3a5ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.7152 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND0"
+		(shape input)
+		(at 55.88 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bee07ef-7425-4928-9012-822f811fc61e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 67.7552 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "UpA1"
+		(shape input)
+		(at 270.51 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e589545-f90a-4e83-a905-b7b7bc01c5cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.2728 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LS"
+		(shape input)
+		(at 203.2 60.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4946b369-7238-40ee-8ac6-067b07d15da9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 55.7372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND0"
+		(shape input)
+		(at 40.64 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bed3a5d-3a78-47cc-bed5-9361825fa3fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 76.6452 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 193.04 60.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ce2159e-2434-498c-84b5-28df4d839b0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 52.8948 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 212.09 66.04 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50ff843e-2dfd-4fef-a409-b0b352cfdfcd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.09 57.9748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Tilt2"
+		(shape input)
+		(at 224.79 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "511fd4a9-76cc-40b0-8ecd-f2ea6a6cc11e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.632 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 175.26 60.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "616e1064-36d2-4783-841b-f30ff79e5525")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 52.8948 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CstickUp"
+		(shape input)
+		(at 140.97 87.63 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6224c547-132e-4f78-bfd5-b1364d90d1d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 76.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L"
+		(shape input)
+		(at 224.79 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6cdb9b85-3040-4151-9e9b-3be558bdbf57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.7767 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CstickLeft"
+		(shape input)
+		(at 125.73 96.52 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d399cae-beba-41a6-b583-b71e0f6b25bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 84.2214 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND0"
+		(shape input)
+		(at 123.19 44.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75ff6f3d-521c-4ea3-a89e-756145783bf8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 52.5152 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RightA"
+		(shape input)
+		(at 224.79 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7811b7e9-71e5-4afe-9eaa-72942e55bc00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.8177 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "UpA"
+		(shape input)
+		(at 224.79 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ab06e3e-31f2-4cf2-be8e-5a0334968062")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.2367 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "X"
+		(shape input)
+		(at 224.79 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e1d56fe-826a-44dc-b224-a7e93f313746")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 186.69 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e60da0f-57e1-4e71-9a3b-59e75487ae8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 17.6372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "R"
+		(shape input)
+		(at 166.37 66.04 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f6a74f8-87c3-4264-98cf-02f5f4c85c57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 61.7848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 156.21 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81fd9576-19ec-4f87-9f3f-9fba005fa4ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 74.1052 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Y"
+		(shape input)
+		(at 224.79 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8507105c-c28e-4ed4-8050-dbee5f3de03b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.7162 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Tilt1"
+		(shape input)
+		(at 224.79 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "876f2d28-8829-43a8-8d8b-05f5365e1a04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.632 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Z"
+		(shape input)
+		(at 224.79 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89897f83-8d70-4cc3-a161-8b8775a742b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5953 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 135.89 96.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b22e4e7-61a9-402c-885a-83f484d6a147")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 104.5852 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LeftA"
+		(shape input)
+		(at 224.79 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9001486a-818c-460c-9456-1b13443dedcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.1481 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Z"
+		(shape input)
+		(at 203.2 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94492f22-7a70-4bfc-9ded-76fc8733f291")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 76.5847 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 193.04 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95759a9b-e9b4-49fa-9d7f-d0bef5de92fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 80.4552 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MX"
+		(shape input)
+		(at 106.68 92.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9594b31a-8be4-4891-912f-a3763b1da2e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 87.0639 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "X"
+		(shape input)
+		(at 185.42 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "968b88a0-7924-45fb-b33f-51cba027a080")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 76.5847 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 167.64 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98fc967e-9782-4652-ac49-07fe6e9cd1d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 108.3952 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND2"
+		(shape input)
+		(at 247.65 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a200ac27-6c72-4dd7-8391-bdd56d4a01a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.65 160.4652 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "B"
+		(shape input)
+		(at 166.37 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2232b1d-6cc3-41b8-8819-89f097fc93b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 73.2148 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "L"
+		(shape input)
+		(at 50.8 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac811ded-64ca-4f6a-9243-9a7a588562e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 64.5667 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND0"
+		(shape input)
+		(at 102.87 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b55f8945-76e1-44aa-905b-c88ff90da0af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 113.4752 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 151.13 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd5807d7-ace4-489c-ab55-44ba9cc4acc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 108.3952 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "R"
+		(shape input)
+		(at 224.79 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bdd30e41-0329-4c19-9514-6ddc21f3d38a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5348 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND0"
+		(shape input)
+		(at 74.93 58.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c119a4fe-654b-4529-9b96-135131e1b3a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 66.4852 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 175.26 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c13e4eb6-ad88-4d73-a3a3-63cebe817ce5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 80.4552 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 151.13 87.63 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1dbace4-e732-485a-989f-21f8c031e922")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 95.6952 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Screenshot"
+		(shape input)
+		(at 270.51 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c21f6d70-5c78-43ef-b35b-6326004b1cc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.9575 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Tilt0"
+		(shape input)
+		(at 224.79 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2896848-3f83-40cf-a709-c2da3ae344b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.632 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 156.21 77.47 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c41421ea-a984-4a8f-b96a-e1390073bd50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 85.5352 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND2"
+		(shape input)
+		(at 194.31 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7b189b7-2058-4a36-8f64-f2fcafe5d728")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.31 16.0648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 270.51 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c898cdd0-c330-4fdb-8a82-c664d550b5e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.0028 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "B"
+		(shape input)
+		(at 224.79 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cecc4ec2-969a-40a7-863e-4d9fc9644eb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.5348 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MY"
+		(shape input)
+		(at 113.03 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfaad97a-c364-406c-8738-e50a9a102f62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 99.8848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 270.51 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d80198ed-2f46-4090-8cb3-cac034e2c8e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.0633 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "UpA"
+		(shape input)
+		(at 222.25 77.47 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df4a0b83-667f-44a9-8c57-5d4a32bb52cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.25 84.0233 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 135.89 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1dc7d8f-8cb7-43ab-9adb-e78128e2958e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 119.8252 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Plus{slash}Start"
+		(shape input)
+		(at 224.79 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1eb2b16-80e2-4e4a-80d9-abfd8eeffe69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7659 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Y"
+		(shape input)
+		(at 185.42 60.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e306038e-e1da-4cc7-9151-514aa3e9412c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 56.8862 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MS"
+		(shape input)
+		(at 222.25 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eab3c49d-eeca-45f1-a529-dfcfd62560f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.25 71.6861 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "A"
+		(shape input)
+		(at 140.97 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f68cd6a4-3cab-4e69-9b50-253e14cbca62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 96.2562 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Home"
+		(shape input)
+		(at 270.51 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f72b05d4-ac78-4ae7-a63b-262b9f491ae4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.7566 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 212.09 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff1f5593-1838-42b0-bb7e-575a7d807bc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.09 69.4048 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Module:RaspberryPi_Pico_W")
+		(at 247.65 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "200792e8-da74-4541-b0de-14c215a8e39a")
+		(property "Reference" "A1"
+			(at 249.7933 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RaspberryPi_Pico_W"
+			(at 249.7933 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:RaspberryPi_Pico_W_SMD_HandSolder"
+			(at 247.65 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
+			(at 247.65 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
+			(at 247.65 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "33"
+			(uuid "701d37c0-3e22-411d-b36a-7678f2317807")
+		)
+		(pin "32"
+			(uuid "205f9b70-9f98-45ca-9832-bff93e2b46e9")
+		)
+		(pin "2"
+			(uuid "f82bd08d-72a7-4173-a8b5-1d7ea0705482")
+		)
+		(pin "1"
+			(uuid "76557928-613b-4bf7-b363-0b6f49423a8b")
+		)
+		(pin "17"
+			(uuid "a0312d63-6870-4aec-b400-f6c66e0350f1")
+		)
+		(pin "31"
+			(uuid "e6c75068-6ed2-44e3-b0ff-ff93225b01bc")
+		)
+		(pin "30"
+			(uuid "287faaed-17b7-456a-a437-f693ca0b9d7a")
+		)
+		(pin "35"
+			(uuid "ef9ef768-5118-4810-833b-621088a76dd5")
+		)
+		(pin "37"
+			(uuid "e93ff170-79ed-4fd5-b746-a51a591882d2")
+		)
+		(pin "40"
+			(uuid "4df521e0-0b0d-4b7c-a465-9520ec879d64")
+		)
+		(pin "36"
+			(uuid "fe80c951-40e8-4914-acd8-1d5bef215c5e")
+		)
+		(pin "34"
+			(uuid "236345bf-d26c-4d91-9ad0-fd073dd50fc9")
+		)
+		(pin "20"
+			(uuid "8b58f38b-91a5-402f-b83b-dbf3e1f5e711")
+		)
+		(pin "39"
+			(uuid "dacb09c7-0c71-42ec-9130-0660905e19d5")
+		)
+		(pin "38"
+			(uuid "74fd3659-2f23-4674-bc4c-6ac1d577f1a0")
+		)
+		(pin "28"
+			(uuid "627fcc0a-a38d-432d-a2b5-2024077a0a1f")
+		)
+		(pin "27"
+			(uuid "41812b8b-d823-4a56-935b-1a06560ab6f5")
+		)
+		(pin "26"
+			(uuid "6a7b5cff-27b0-4704-851f-8f64f727b84f")
+		)
+		(pin "25"
+			(uuid "9b1fc857-aa7a-4874-860b-e1712da64f4a")
+		)
+		(pin "24"
+			(uuid "abeb83a1-f514-4d75-9f3f-9624d4606d87")
+		)
+		(pin "23"
+			(uuid "7f854a3e-ffe8-4e05-9464-db8f6c5b86dd")
+		)
+		(pin "22"
+			(uuid "b3f62e2c-a63a-4365-8096-be417fcc9845")
+		)
+		(pin "21"
+			(uuid "d49c23de-f390-4412-95ec-b4549d97c63e")
+		)
+		(pin "29"
+			(uuid "58943f1b-b5a8-4a22-a8d1-95789633e90f")
+		)
+		(pin "19"
+			(uuid "03f8e3f4-ed38-4387-a82c-15530e3060f6")
+		)
+		(pin "3"
+			(uuid "cfe23c69-54dd-4230-8ce4-7091b78dffe8")
+		)
+		(pin "4"
+			(uuid "64bf7352-d89a-4cb7-93be-41f3c56ecf32")
+		)
+		(pin "5"
+			(uuid "47e37cc6-771d-466f-b839-a920d3df6de8")
+		)
+		(pin "6"
+			(uuid "9edd5bab-2481-4179-99a3-625d111df799")
+		)
+		(pin "7"
+			(uuid "3770ac2d-6369-4684-92e5-bc863375000f")
+		)
+		(pin "8"
+			(uuid "c3dfe596-c0bd-485b-913a-d5ef489d6774")
+		)
+		(pin "9"
+			(uuid "9d010ee0-10fd-4dc3-823b-81a0f0ffff8f")
+		)
+		(pin "10"
+			(uuid "090d4e16-4923-4554-8587-1a3c0bba5fd2")
+		)
+		(pin "11"
+			(uuid "816f74e9-40c9-42f3-bb49-bf1ef149c994")
+		)
+		(pin "12"
+			(uuid "ab52db21-4e26-4b3e-a80e-5cc153035a27")
+		)
+		(pin "13"
+			(uuid "70570239-f704-4744-a511-5765b3812c63")
+		)
+		(pin "14"
+			(uuid "746f80eb-1c47-466d-bdb5-02c0a1cc957d")
+		)
+		(pin "15"
+			(uuid "4d8bd251-41d2-41fb-b52c-140ff21d1625")
+		)
+		(pin "16"
+			(uuid "621c5e3c-7dca-4b85-a1fb-43577c24d940")
+		)
+		(pin "18"
+			(uuid "fc700ea7-1886-4c58-96f0-126cb439f994")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 146.05 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24fa89af-d2cd-4de8-a694-b02e5dda9ac7")
+		(property "Reference" "SW16"
+			(at 146.05 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 146.05 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 146.05 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 146.05 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8124ecbc-103c-41bf-808c-ff5f6fd2fdc1")
+		)
+		(pin "1"
+			(uuid "4b7196d0-d87a-4409-9c34-d5cd62b3f684")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33980f0f-012e-44e4-8bad-5f76cfe437ed")
+		(property "Reference" "H1"
+			(at 41.91 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 39.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 41.91 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "376d2518-56dd-4e84-90d8-bf10aee91944")
+		(property "Reference" "H4"
+			(at 44.45 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 44.45 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 41.91 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 41.91 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 269.24 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39926cff-1d90-42a4-88b0-49b55194c9ef")
+		(property "Reference" "H2"
+			(at 271.78 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 271.78 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 269.24 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 269.24 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 130.81 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b321bdf-2fe9-4879-b9ce-cc83d9cceba9")
+		(property "Reference" "SW17"
+			(at 130.81 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 130.81 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 130.81 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 130.81 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2dcb4157-eb99-4dd8-9d4e-805c84847a4e")
+		)
+		(pin "1"
+			(uuid "8a7d58db-f029-427d-b292-42162007565d")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 180.34 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44d112f6-62be-4803-9707-b670c67ea3a9")
+		(property "Reference" "SW8"
+			(at 180.34 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 180.34 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 180.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 180.34 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d3ddb650-3faf-4a55-9b37-9773cfe045d9")
+		)
+		(pin "1"
+			(uuid "1ea0e653-c7bd-4054-bc87-0e94d241b962")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 162.56 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "587cd412-7aff-4c5d-a78e-e4248151d45f")
+		(property "Reference" "SW19"
+			(at 162.56 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 162.56 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 162.56 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 162.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a7c5fd3-dc37-45e7-93f8-f7c676c83cd8")
+		)
+		(pin "1"
+			(uuid "2e807eec-cc81-4011-b540-24ae6a7898c4")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 101.6 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b684ff3-4e2f-443c-a0c5-73a888234b12")
+		(property "Reference" "SW1"
+			(at 101.6 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 101.6 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 101.6 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 101.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c65b4827-b6e3-4b8b-8d75-88b227343efb")
+		)
+		(pin "1"
+			(uuid "9553c858-3768-4e14-a838-228a181f21e1")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 217.17 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6edea81d-5e8b-4401-9e71-29544d13e768")
+		(property "Reference" "SW12"
+			(at 217.17 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 217.17 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 217.17 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 217.17 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd150bbc-a2f2-4834-84b8-e58c1b6d0713")
+		)
+		(pin "1"
+			(uuid "485405b6-e101-4001-990f-641206ef9b9f")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 161.29 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b2c8939-c2d6-42ce-8eef-dfae020c2304")
+		(property "Reference" "SW6"
+			(at 161.29 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 161.29 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 161.29 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 161.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "26848b9d-4369-475e-913c-341958cbe583")
+		)
+		(pin "1"
+			(uuid "a17ff7d6-efc9-4d74-9a0b-e86c2f50d5da")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DM-OLED096-636:DM-OLED096-636")
+		(at 189.23 36.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7be7597f-c94b-4e32-a3d7-bdc20460a03f")
+		(property "Reference" "U1"
+			(at 198.12 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DM-OLED096-636"
+			(at 198.12 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SSD1306:MODULE_DM-OLED096-636"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.96” 128 X 64 MONOCHROME GRAPHIC OLED DISPLAY MODULE - I2C"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Display Module"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11.3 mm"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=eda"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "2018-09-10"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DM-OLED096-636/Display+Module/view-part/?ref=snap"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "DM-OLED096-636"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Displaymodule"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "9f727b4b-a685-4755-8221-7f9f94bbe794")
+		)
+		(pin "2"
+			(uuid "a57253b1-c824-4343-8156-e6603a9d7e40")
+		)
+		(pin "3"
+			(uuid "325390c9-c2e2-4fa2-bfc3-4d095de58c43")
+		)
+		(pin "4"
+			(uuid "cf03f5fc-891f-44e0-9a9f-1297c6ceecf3")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 45.72 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dc67e6b-60d7-4131-8111-4b911f96e16e")
+		(property "Reference" "SW5"
+			(at 45.72 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 45.72 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 45.72 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 45.72 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e1a8ee93-1be5-4141-849f-1eca66685180")
+		)
+		(pin "1"
+			(uuid "70132592-f245-447e-aac8-50fc3593d84c")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 161.29 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d37b05a-da3b-4aa6-b9da-0dfda6d5a25b")
+		(property "Reference" "SW7"
+			(at 161.29 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 161.29 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 161.29 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 161.29 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a3a414f0-3404-4b0b-ae74-503e9538b470")
+		)
+		(pin "1"
+			(uuid "3fa80632-ae8a-4e1f-8b0b-0beb389348bc")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 198.12 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a132f7a-eb3f-480a-8f68-c2ed3558c6e8")
+		(property "Reference" "SW10"
+			(at 198.12 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 198.12 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 198.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 198.12 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "57cd34e4-aa1f-48d9-aa19-10e63dbca9b4")
+		)
+		(pin "1"
+			(uuid "6c911c63-3d02-4a2f-923b-d5a99c5b0941")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 97.79 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ccdb378-27a1-41c6-abe9-e714b4bcaf07")
+		(property "Reference" "SW4"
+			(at 97.79 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 97.79 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 97.79 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 97.79 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f811693f-70e7-489a-be64-a07b8190d0fe")
+		)
+		(pin "1"
+			(uuid "bded8f7e-d2ee-46ae-9d28-1e442f699047")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 217.17 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e36dadc-60f4-4146-948b-340d3fb034b7")
+		(property "Reference" "SW13"
+			(at 217.17 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 217.17 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 217.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 217.17 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43a8e603-5684-4db5-9ab0-278932ce076f")
+		)
+		(pin "1"
+			(uuid "d1c77b52-eb83-40a5-b531-1e7f0ffa9707")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 107.95 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a45eb853-95dc-4124-8021-bcc5c24f03b2")
+		(property "Reference" "SW15"
+			(at 107.95 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 107.95 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 107.95 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 107.95 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79ca4e57-f827-437f-8d25-e32261c7452a")
+		)
+		(pin "1"
+			(uuid "aa50bdc0-9623-459d-bf74-ede74703f124")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 128.27 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a719ee03-9225-4408-80d5-0e39fdb3c4c6")
+		(property "Reference" "SW18"
+			(at 128.27 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 128.27 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 128.27 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 128.27 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a0e925d1-8b00-4292-a7b2-c36567804f82")
+		)
+		(pin "1"
+			(uuid "3fd6cc4d-30c0-4404-9bc9-0cb2fad7ad15")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 146.05 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac630dbb-b7c6-43b3-8132-b2d2aec56755")
+		(property "Reference" "SW14"
+			(at 146.05 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 146.05 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 146.05 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 146.05 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3af4d1e2-7902-4147-a585-2035e82a0b7b")
+		)
+		(pin "1"
+			(uuid "975aeae5-e3d4-4388-a7aa-60d9effabe1e")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 130.81 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c2a154-52a3-473b-9b38-4caa5e6f0f05")
+		(property "Reference" "SW20"
+			(at 130.81 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 130.81 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 130.81 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 130.81 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5138a997-0a74-46c3-b1af-c392b3893c79")
+		)
+		(pin "1"
+			(uuid "0a8336bd-19bf-4600-b89b-8cc58a27972c")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 180.34 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3aa07aa-3823-43da-9758-b2861336d750")
+		(property "Reference" "SW9"
+			(at 180.34 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 180.34 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 180.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 180.34 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "03ec758e-f091-4cca-9956-8657649553ed")
+		)
+		(pin "1"
+			(uuid "742a59af-5fb5-439e-ad27-c2458470c901")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 198.12 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c23fb2cb-5b58-46d3-a16c-0bbf33eca288")
+		(property "Reference" "SW11"
+			(at 198.12 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 198.12 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 198.12 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dc9ca84b-f2b6-46dd-8b1b-2a69f5c2d1fb")
+		)
+		(pin "1"
+			(uuid "bc393b84-6ab0-47a1-ba9d-86e1c24927a4")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 60.96 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5bcd30e-191e-4315-ab62-6174b3d40aae")
+		(property "Reference" "SW3"
+			(at 60.96 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 60.96 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 60.96 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 60.96 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd3d63ef-f15a-458b-9907-2e5dda2493c3")
+		)
+		(pin "1"
+			(uuid "150377a1-0f0f-4b8c-b45c-a042fd120d42")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 270.51 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e83fda1a-51e6-4c02-9fc7-89541f7298ae")
+		(property "Reference" "H3"
+			(at 273.05 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 273.05 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 270.51 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 270.51 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 80.01 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f544a5ad-090f-43af-af66-fbddcb671b26")
+		(property "Reference" "SW2"
+			(at 80.01 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 80.01 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 80.01 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 80.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e98456a9-2367-4309-bdda-7f1a48991d3a")
+		)
+		(pin "1"
+			(uuid "39269deb-73f8-44a9-b4e5-8699846734a0")
+		)
+		(instances
+			(project "SegFault"
+				(path "/f46213de-467f-48a7-85bc-d7060c2898ac"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
