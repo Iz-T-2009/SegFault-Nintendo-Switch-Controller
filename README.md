@@ -9,7 +9,8 @@
 ### scroll down for changelog and POC(s)!
 
 ### (current) current version!!!... >:3
-this version was.. interesting to say the least. lots of issues were arising due to the choice of strictly not using matrix wiring to ensure the design doesn't look complex, andddd it always ends up more complex. more buttons were added! although.. that tarde off may not be worth it.
+this version was.. interesting to say the least. lots of issues were arising due to the choice of strictly not using matrix wiring to ensure the design doesn't look complex, andddd it always ends up more complex. more buttons were added! although.. that trade off may not be worth it.
+
 
 <b>design!</b>
 <img width="1916" height="1070" alt="Screenshot From 2026-04-09 12-42-01" src="https://github.com/user-attachments/assets/e27ccdef-761f-4177-889c-f308138c28f1" />
